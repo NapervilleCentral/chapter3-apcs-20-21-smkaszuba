@@ -6,7 +6,7 @@ public class NumCompare
    {
       Scanner in = new Scanner(System.in);
 
-
+      
 
    }
 }

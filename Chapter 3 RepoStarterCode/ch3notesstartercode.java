@@ -49,26 +49,32 @@ public static void main (String [] args)
       System.out.println ();
 */
 
-       boolean a = true, b = false, c = false,d;
+ //      boolean a = true, b = false, c = false,d;
         
-       System.out.println(a  );
-      // c =(a = true) || (b = true);
-      // System.out.println(a + "-" + b + "-" + c);
+     //  System.out.println(a  );
+   //  c = (a = true) || (b = true);
+    // System.out.println(a + "-" + b + "-" + c);
 
 
-    //   c = (a = false) || (b = true);
-    //   System.out.println(a + "-" + b+ "-" + c);
+   //    c = (a = false) || (b = true);
+   //    System.out.println(a + "-" + b+ "-" + c);
 
-//     c =(a = false) && (b = true);
- //    System.out.print(a + "-" + b+ "-" + c);
+  // c = (a = false) && (b = true);
+  // System.out.print(a + "-" + b+ "-" + c);
 //
-//     c = (a = true) && (b = false);
-//     System.out.print(a + "-" + b + "-" + c);
+    // c = (a = true) && (b = false);
+    // System.out.print(a + "-" + b + "-" + c);
 
-//     d =!(a = true) || (b = true) && (c = true);
-//     System.out.print(a + "-" + b + "-" + c+ "-" + d);
-
-
+  //   d = !(a = true) || (b = true) && (c = true);
+  //   System.out.print(a + "-" + b + "-" + c + "-" + d);
+        
+  double wallet = 1* .01 + 2 * .05 + 3 * .10 + 4 * .25;
+  final double TOLERANCE = .01;
+  
+  if (Math.abs(wallet - 1.41) < TOLERANCE)
+      System.out.print("Correct");
+  else
+      System.out.print("Add Good");
 }// end of main
 
 
