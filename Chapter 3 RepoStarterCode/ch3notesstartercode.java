@@ -18,7 +18,7 @@ public static void main (String [] args)
 {
 
         Scanner Keyboard = new Scanner(System.in);
-/**/
+/*
     String word1 = "apple";
     String word2 = "cat";
     String word3 = "dog";
@@ -33,7 +33,7 @@ public static void main (String [] args)
 
     if(word2.compareTo(word3)<0)
         System.out.println(word2 +" is before " + word3  );
-/*
+
 
       int num = 5, num1 =10, num2 = 4;  // standard hours in a work week
 
@@ -47,10 +47,11 @@ public static void main (String [] args)
        num2 = Keyboard.nextInt();
 
       System.out.println ();
-/*
+*/
 
        boolean a = true, b = false, c = false,d;
-        //System.out.println(a  );
+        
+       System.out.println(a  );
       // c =(a = true) || (b = true);
       // System.out.println(a + "-" + b + "-" + c);
 
@@ -67,8 +68,6 @@ public static void main (String [] args)
 //     d =!(a = true) || (b = true) && (c = true);
 //     System.out.print(a + "-" + b + "-" + c+ "-" + d);
 
-
-/*  */
 
 }// end of main
 
