@@ -68,13 +68,17 @@ public static void main (String [] args)
   //   d = !(a = true) || (b = true) && (c = true);
   //   System.out.print(a + "-" + b + "-" + c + "-" + d);
         
-  double wallet = 1* .01 + 2 * .05 + 3 * .10 + 4 * .25;
+  /*double wallet = 1* .01 + 2 * .05 + 3 * .10 + 4 * .25;
   final double TOLERANCE = .01;
   
   if (Math.abs(wallet - 1.41) < TOLERANCE)
       System.out.print("Correct");
   else
       System.out.print("Add Good");
+      */
+     char choice = Keyboard.nextLine().charAt(0);
+     
+     
 }// end of main
 
 

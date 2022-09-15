@@ -5,31 +5,30 @@ public class switch_example
    {
             Scanner Keyboard = new Scanner(System.in);
 
-
        // switch statement------------------------------
          char choice;
 
             System.out.print("What would you like to buy?\n");
-            System.out.print("f) fries\n");
+            System.out.print("h) hamburger\n");
             System.out.print("c) cheese\n");
             System.out.print("s) small drink\n");
 
             choice = Keyboard.next().charAt(0);
-
-            
             
             switch (choice)
             {
 
-                case 'f':
-                    System.out.print(".99");
+                case 'h':
+                    System.out.print("4.99");
 
 
                     break;
                 case 'c':
-                    System.out.print("1.50");
+                    System.out.print("1.99");
+                    break;
                 case 's':
-                    System.out.print(".79");
+                    System.out.print("2.99");
+                    break;
                 default:
                     System.out.print("Incorrect Data");
 
