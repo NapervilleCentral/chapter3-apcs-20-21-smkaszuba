@@ -32,7 +32,7 @@ public class CompassDirection
           System.out.print("Southwest");
       else if (degrees < 315)
           System.out.print("West");
-      else if (degrees < 360)
+      else
           System.out.print("Northwest");
    }
 }
