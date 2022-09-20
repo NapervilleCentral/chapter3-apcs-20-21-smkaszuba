@@ -21,7 +21,6 @@ public class NumOrderCondition
       c = in.nextInt();
      
       System.out.print(a + " " + b + " " + c + "\t");
-      System.out.println(answer.equals("S"));
      
       // runs if nums in descending order
       if(answer.equals("S")){
