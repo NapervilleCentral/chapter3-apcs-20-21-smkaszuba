@@ -27,6 +27,5 @@ public class leapYear
         }else{
             System.out.println("Invalid Year");
         }
-   
     }
 }
