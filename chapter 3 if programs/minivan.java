@@ -18,8 +18,8 @@ public class minivan{
         outsideRight = Integer.parseInt(code.substring(7,8));
         gear = code.substring(8,9);
         
-        leftDoor = (insideLeft == 1 || outsideLeft == 1);
-        rightDoor = (insideRight == 1 || outsideRight == 1);
+        leftDoor = (insideLeft | outsideLeft);
+        rightDoor = (insideRight | outsideRight);
         
         // if child lock off && gear is park && master unlock switch is on
         //      if left door is open and right is open; both open
