@@ -55,7 +55,7 @@ class solarSystem {
         weight *= 0.92;
         break;
       default:
-        System.out.print("Error, invalid input!");
+        System.out.println("Error, invalid input!");
         planet = "Error";
         weight = 0;
     }
