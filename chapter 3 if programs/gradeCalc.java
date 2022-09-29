@@ -44,8 +44,8 @@ public class gradeCalc
             System.out.println("Error in reading input!");
         }
 
-      // if grade isn't F
-      if (!letter.equals("F"))
+      // if grade isn't F or error
+      if (numGrade != 0)
         // if grade is + and isn't A+
         if (additive.equals("+") && !letter.equals("A"))
           numGrade += .3;
