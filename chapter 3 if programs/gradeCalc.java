@@ -12,7 +12,7 @@ public class gradeCalc
         // letter: letter entered
         // additive: + or -, if added
         String letterGrade, letter, additive;
-        double numGrade;
+        double numGrade = 0;
         
         System.out.print("Enter a letter grade: ");
         letterGrade = in.nextLine();
@@ -37,10 +37,8 @@ public class gradeCalc
             numGrade = 1;
             break;
           case "F":
-            numGrade = 0;
             break;
           default:
-            numGrade = 0;
             System.out.println("Error in reading input!");
         }
 
