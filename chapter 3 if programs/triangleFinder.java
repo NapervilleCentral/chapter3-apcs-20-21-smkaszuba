@@ -26,7 +26,7 @@ class triangleFinder {
         if (a1 + a2 + a3 != 180 || a1 == 0 || a2 == 0 || a3 == 0)
           System.out.print("Error: impossible triangle!");        
         else{
-          System.out.print("The triangle is a");
+          System.out.print("The triangle is a ");
 
           // check if any of the angles are 90
           if (a1 == 90 || a2 == 90 || a3 == 90)
@@ -68,6 +68,7 @@ class triangleFinder {
           else
             System.out.print(" scalene ");
         }
+        break;
       default:
         System.out.print("Error, invalid input!");
     }
