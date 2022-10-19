@@ -13,7 +13,7 @@ public class monteyGuy{
                 win++;
             }
         }
-        System.out.print("Switch Wins: " + win + "\nLosses: " + loss);
+        System.out.print("Switch Wins: " + win + "\nSwitch Losses: " + loss);
         win = 0;
         loss = 0;
         for (int x = 0; x < 1000; x++){
@@ -24,6 +24,6 @@ public class monteyGuy{
             else
                 loss++;
         }
-        System.out.print("\nNo switch Wins: " + win + "\nLosses: " + loss);
+        System.out.print("\nNo switch Wins: " + win + "\nNo switch Losses: " + loss);
         }
     }
