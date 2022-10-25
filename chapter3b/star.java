@@ -1,10 +1,16 @@
 public class star
 {
+    
    public static void main(String[] args){
        String str = "**********";
        
+ 
        for (int n = 0; n < 10; n++){
-           System.out.printf("%10s%n", str.substring(0, str.length() - n));
+           for (int spaces = 10; spaces < 0; spaces--)
+               System.out.print(" ");
+           for (int stars = 0; stars < 10; stars++)
+               System.out.print("*");
+           System.out.println();
        }
    }
 }
