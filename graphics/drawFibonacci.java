@@ -13,10 +13,6 @@ public class drawFibonacci{
         pen.up();
         
         for (int n = 0; n < 11; n++){
-            for (int i = 0; i < 4; i++){
-                pen.move(nextTerm);
-                pen.turn(90);
-            }
             pen.turn(90);
             pen.move(nextTerm);
         }
