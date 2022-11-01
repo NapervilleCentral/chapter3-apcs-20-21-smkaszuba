@@ -8,7 +8,7 @@ import java.io.*;
 class speeches{
   public static void main(String[] args) throws IOException{
     // file is the file being analized
-    File file = new File("speeches/Abraham Lincoln A House Divided.txt");
+    File file = new File("speeches/gwbush.txt");
     Scanner in = new Scanner(file);
     
     // words - amount of words in speech
@@ -49,5 +49,47 @@ class speeches{
     System.out.println("government was said: " + government);
     System.out.println("people was said: " + people);
     System.out.println("our was said: " + our);
+    
+    /* 
+     documents from 1776-1830:
+     1. file: speeches\George Washington first Inaugural.txt
+        # of words: 1438
+        average length of words: 5
+        united was said: true
+        government was said: true
+        people was said: true
+        our was said: true
+       
+      2. file: speeches\AJackson Independence of Texas.txt
+        # of words: 1810
+        average length of words: 4
+        united was said: true
+        government was said: true
+        people was said: true
+        our was said: true
+        
+        Andrew Jackson's speech was longer than Geroge's. Washington had longer words, however.
+        They both said basic government words
+        
+     documents from 1830-1920:
+     1. file: speeches\MLK I have a Dream.txt
+        # of words: 915
+        average length of words: 4
+        united was said: false
+        government was said: false
+        people was said: true
+        our was said: true
+     
+     2. file: speeches\gwbush.txt
+        # of words: 1586
+        average length of words: 4
+        united was said: true
+        government was said: true
+        people was said: true
+        our was said: true
+        
+        MLK's speech was shorter than Bush's speech. MLK didn't say united or government in his speech
+        which is very interesting. They both had a similar length of words
+     */
   }
 }

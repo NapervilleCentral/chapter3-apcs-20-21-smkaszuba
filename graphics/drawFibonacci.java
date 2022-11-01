@@ -12,10 +12,6 @@ public class drawFibonacci{
         int term1 = 0, term2 = 1, nextTerm = 1;
         pen.up();
         
-        for (int n = 0; n < 11; n++){
-            pen.turn(90);
-            pen.move(nextTerm);
-        }
         
         // for 7 iterations:
         for (int n = 0; n < 11; n++){
