@@ -1,8 +1,8 @@
 #BlueJ package file
-editor.fx.0.height=739
-editor.fx.0.width=1035
-editor.fx.0.x=305
-editor.fx.0.y=37
+editor.fx.0.height=0
+editor.fx.0.width=0
+editor.fx.0.x=0
+editor.fx.0.y=0
 objectbench.height=93
 objectbench.width=760
 package.divider.horizontal=0.6
@@ -56,8 +56,8 @@ target13.name=PowerOf2
 target13.showInterface=false
 target13.type=ClassTarget
 target13.width=120
-target13.x=420
-target13.y=390
+target13.x=400
+target13.y=370
 target14.height=50
 target14.name=ch3notesper7
 target14.showInterface=false
